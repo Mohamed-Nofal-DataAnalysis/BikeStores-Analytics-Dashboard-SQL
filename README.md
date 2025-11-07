@@ -1,6 +1,6 @@
 # BikeStores Analytics Dashboard 🚴‍♂️📊
 
-![SQL](https://github.com/Mohamed-Nofal-DataAnalysis/BikeStores-Analytics-Dashboard-SQL/blob/main/SQLQuery1.sql)
+[SQL](https://github.com/Mohamed-Nofal-DataAnalysis/BikeStores-Analytics-Dashboard-SQL/blob/main/SQLQuery1.sql)
 ![Database](https://img.shields.io/badge/Database-BikeStores-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Awesome](https://img.shields.io/badge/Awesome-Yes-brightgreen.svg)
