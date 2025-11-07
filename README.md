@@ -1,6 +1,6 @@
 # BikeStores Analytics Dashboard 🚴‍♂️📊
 
-#[SQL Queries](https://github.com/Mohamed-Nofal-DataAnalysis/BikeStores-Analytics-Dashboard-SQL/blob/main/SQLQuery1.sql)
+# [SQL Queries](https://github.com/Mohamed-Nofal-DataAnalysis/BikeStores-Analytics-Dashboard-SQL/blob/main/SQLQuery1.sql)
 
 **The ultimate collection of 10 powerful SQL queries** for the famous **BikeStores** sample database. Perfect for interviews, learning, or building a real analytics dashboard!
 
