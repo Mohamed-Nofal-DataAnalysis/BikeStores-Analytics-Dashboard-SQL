@@ -1,5 +1,3 @@
-# BikeStores-Analytics-Dashboard
-Top 10 powerful SQL queries for BikeStores database - Sales, Customers, Staff &amp; Products Analytics (2016-2018)
 # BikeStores Analytics Dashboard 🚴‍♂️📊
 
 ![SQL](https://img.shields.io/badge/SQL-Queries-10-blue.svg)
@@ -26,3 +24,6 @@ Top 10 powerful SQL queries for BikeStores database - Sales, Customers, Staff &a
 
 ## Database Schema
 Based on the classic **BikeStores** sample database:
+sales.customers, sales.orders, sales.order_items,
+sales.stores, sales.staffs,
+production.products, production.categories
