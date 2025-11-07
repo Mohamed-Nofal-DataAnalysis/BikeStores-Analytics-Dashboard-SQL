@@ -27,3 +27,16 @@ Based on the classic **BikeStores** sample database:
 sales.customers, sales.orders, sales.order_items,
 sales.stores, sales.staffs,
 production.products, production.categories
+
+
+## Usage Examples
+
+```sql
+-- Example: Top 5 customers by number of orders
+SELECT TOP 5
+    CONCAT(C.first_name,' ',C.last_name) AS Customer_Name,
+    COUNT(DISTINCT O.order_id) AS Total_Orders
+FROM sales.customers C
+LEFT JOIN sales.orders O ON C.customer_id = O.customer_id
+GROUP BY C.customer_id, C.first_name, C.last_name
+ORDER BY Total_Orders DESC;
