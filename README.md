@@ -40,3 +40,22 @@ FROM sales.customers C
 LEFT JOIN sales.orders O ON C.customer_id = O.customer_id
 GROUP BY C.customer_id, C.first_name, C.last_name
 ORDER BY Total_Orders DESC;
+
+How to Use
+
+Download the BikeStores sample database
+Run bikestores.sql to create the DB
+Copy any query from this repo
+Paste & execute in SSMS, MySQL Workbench, or Azure Data Studio
+
+Performance Tips
+
+All queries use proper JOINs and GROUP BY
+Add indexes on:
+CREATE INDEX idx_orders_customer_id ON sales.orders(customer_id);
+CREATE INDEX idx_order_items_order_id ON sales.order_items(order_id);
+
+Contributing
+Pull requests are welcome! أضف استعلام جديد وهيتشهر في الـ README
+License
+MIT © 2025 BikeStores Analytics Team
